@@ -1,0 +1,22 @@
+<view class="detail">
+  <myTitle></myTitle>
+  <view class="vedio_info">
+    <image class="detail_img" src="{{detail.pic}}" />
+    <!-- <!__ <video src="detail.redirect_url" controls="{{true}}" /> __> -->
+    <text class="detail_des">{{detail.desc}}</text>
+  </view>
+  <view class="other_list">
+    <navigator class="item_other" wx:for="{{red}}" wx:key="{{index}}">
+      <view class="other_img_wrap">
+        <image src="{{item.pic}}" mode="widthFix"></image>
+      </view>
+      <view class="other_info">
+        <view class="other_title">{{item.title}}</view>
+        <view class="other_detail">
+          <text class="play_count">{{item.play}}次观看</text>
+          <text class="comment_count">{{item.review}}次评论</text>
+        </view>
+      </view>
+    </navigator>
+  </view>
+</view>

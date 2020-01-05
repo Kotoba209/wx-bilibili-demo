@@ -1,0 +1,53 @@
+/* pages/detail/detail.wxss */
+
+page {
+  color: #666;
+  padding: 10rpx;
+}
+
+.detail_img {
+  width: 100%;
+}
+
+.detail_des {
+  font-size: 32rpx;
+}
+
+.other_list {
+  margin-top: 20rpx;
+}
+
+.item_other {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20rpx;
+}
+
+.other_img_wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.other_img_wrap image {
+  width: 90%;
+  border-radius: 15rpx;
+}
+
+.other_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 60%;
+}
+
+.other_title {
+  font-size: 30rpx;
+  color: #e06f93;
+}
+
+.other_detail {
+  font-size: 26rpx;
+  color: #666;
+}
